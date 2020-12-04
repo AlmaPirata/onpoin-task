@@ -1,0 +1,16 @@
+.horizontal-slider img {
+    width: 100vw;
+}
+
+.horizontal-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.horizontal-slider__slides-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    transition: 0.5s;
+}
